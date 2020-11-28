@@ -1,0 +1,116 @@
+body{
+  background-color: rgb(220, 220, 220);
+  text-align: center;
+  font-family: Helvetica, Sans-Serif;
+}
+
+.bloc{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 500px) {
+  .bloc{
+    width: auto;
+  }
+}
+
+@media (min-width: 700px) {
+  .bloc{
+    width: 600px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .bloc{
+    width: 800px;
+  }
+}
+
+
+
+h2{
+  margin: 15px;
+}
+
+li{
+    margin-top: 15px;
+}
+
+li{
+  text-align: left;
+}
+
+
+button{
+  margin-top: 15px;
+  height: 40px;
+  border-radius: 30px;
+}
+button:hover{
+  background-color: rgb(176,224,230);
+}
+
+
+.subCard{
+  text-align: center;
+  margin: 40px;
+  padding: 15px;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.experience{
+  width: 75%;
+  margin: 20px;
+}
+
+.desc{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.photo{
+  width: 22%;
+  border-radius: 500px;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+
+.mainCard{
+  background: linear-gradient(0.25turn, rgb(173,216,230), rgb(196,244,250), rgb(173,216,230));
+  padding: 15px;
+  margin-top: 40px;
+  border-radius: 50px;
+  color: black;
+  box-shadow: 10px 5px 5px grey;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
